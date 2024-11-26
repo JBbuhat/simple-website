@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodCrave</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="#" data-page="home">Home</a>
+    <a href="#" data-page="products">Products</a>
+    <a href="#" data-page="about">About</a>
+    <a href="#" data-page="contact">Contact</a>
+  </nav>
+
+  <!-- Pages -->
+  <div id="home" class="page active">
+    <h1>Welcome to FoodCrave</h1>
+    <p>Your one-stop shop for delicious food!</p>
+    <div class="controls">
+      <h2>Customize Your Experience</h2>
+      <label>Change Text Color:
+        <input type="color" id="text-color" />
+      </label>
+      <br />
+      <label>Change Background:
+        <input type="color" id="bg-color" />
+      </label>
+      <br />
+      <label>Change Font Style:
+        <select id="font-family">
+          <option value="'Orbitron', sans-serif">Orbitron</option>
+          <option value="'Poppins', sans-serif">Poppins</option>
+          <option value="'Lobster', cursive">Lobster</option>
+          <option value="'Roboto', sans-serif">Roboto</option>
+        </select>
+      </label>
+      <br />
+      <label>Change Font Size:
+        <input type="range" id="font-size" min="12" max="36" value="18" />
+      </label>
+      <br />
+      <button class="toggle-dark-mode" id="dark-mode-toggle">Enable Dark Mode</button>
+    </div>
+  </div>
+
+  <div id="products" class="page">
+    <h1 class="category-title">Pastries</h1>
+    <div class="product-card">
+      <img src="Easy-Chocolate-Croissant-Recipe-1-1200.jpg" alt="Pastry 1" />
+      <h3>Chocolate Croissant</h3>
+      <p>A warm and buttery croissant filled with rich chocolate.</p>
+      <p>P10</p>
+    </div>
+    <div class="product-card">
+      <img src="157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg" alt="Pastry 2" />
+      <h3>Vanilla Cupcake</h3>
+      <p>Delicate vanilla sponge topped with creamy buttercream.</p>
+      <p>P15</p>
+    </div>
+    <div class="product-card">
+      <img src="mixed-berry-tart.jpg" alt="Pastry 3" />
+      <h3>Berry Tart</h3>
+      <p>A delicious tart filled with a fresh berry medley.</p>
+      <p>P15</p>
+    </div>
+    <div class="product-card">
+      <img src="PistachioBaklava-GettyImages-183422455-5997abb09abed50010b57402.jpg" alt="Pastry 1" />
+      <h3>Pistachio Baklava</h3>
+      <p>Filo pastry with pistachios, honey, and syrup.</p>
+      <p>P20</p>
+    </div>
+    <h1 class="category-title">Junk Foods</h1>
+    <div class="product-card">
+      <img src="pringles-original-158g-857233.webp" alt="Pastry 2" />
+      <h3>Pringles Original</h3>
+      <p>Stackable potato crisps with a uniform shape, offering a light, salty taste.</p>
+      <p>P100</p>
+    </div>
+    <div class="product-card">
+      <img src="Cheese-pizza-1-500x375.webp" alt="Pastry 3" />
+      <h3>Cheese Pizza</h3>
+      <p>A pizza topped with melted mozzarella cheese on a tomato sauce base, one of the most popular and basic pizza options.</p>
+      <p>P300</p>
+    </div>
+    <div class="product-card">
+      <img src="Cheetos-Crunchy-8oz.webp" alt="Pastry 1" />
+      <h3>Cheetos Crunchy</h3>
+      <p> Cheese-flavored cornmeal snacks with a crunchy texture, known for their bright orange color and cheesy coating.</p>
+      <p>P50</p>
+    </div>
+    <div class="product-card">
+      <img src="2157df3d26331a40f1b93816cb45ed2d_large.png" alt="Pastry 2" />
+      <h3>Lay’s Classic Potato Chips</h3>
+      <p> Thin, crispy potato chips with a simple salted flavor, widely popular as a snack.</p>
+      <p>P50</p>
+    </div>
+    <h1 class="category-title">Beverages</h1>
+    <div class="product-card">
+      <img src="MicrosoftTeams-image_142_grande.webp" alt="Pastry 3" />
+      <h3>Coca-Cola</h3>
+      <p>Refreshing carbonated drink with a unique, sweet flavor.</p>
+      <p>P70</p>
+    </div>
+    <div class="product-card">
+      <img src="2024-2ndPlatforms-ProductImageTemplate_12_c0e1851b-cdca-4e5a-82b1-c73fc488fda1_600x.webp" alt="Pastry 1" />
+      <h3>Pepsi</h3>
+      <p>Sweet, carbonated soft drink with a bold, refreshing taste.</p>
+      <p>P70</p>
+    </div>
+    <div class="product-card">
+      <img src="Sprite_1.5L_600x.webp" alt="Pastry 2" />
+      <h3>Sprite</h3>
+      <p>Crisp, lemon-lime flavored carbonated drink with a refreshing taste.</p>
+      <p>P70</p>
+    </div>
+    <div class="product-card">
+      <img src="image_f583cf91-4c71-4eb8-bb9b-be8a1e41f2cd_500x500.webp" alt="Pastry 3" />
+      <h3>Royal</h3>
+      <p>Royal is a sweet, carbonated soft drink with a fruity flavor.</p>
+      <p>P70</p>
+    </div>
+  </div>
+  
+
+  <div id="about" class="page">
+    <h1>About Us</h1>
+    <p><br>FoodCrave Convenience Store,<br>
+
+      <br>Welcome to FoodCrave, your trusted neighborhood convenience store where quality meets convenience. We understand the fast-paced nature of life, which is why we're committed to providing a one-stop shop for all your everyday needs. Whether you're stopping by for a quick snack, groceries, household essentials, or something special, we’ve curated a wide selection of products to satisfy your cravings.<br>
+      
+      <br>At FoodCrave, our goal is to make your shopping experience as easy and enjoyable as possible. We pride ourselves on offering fresh, high-quality items at affordable prices, all while ensuring fast and friendly service. Our shelves are stocked with a variety of your favorite snacks, beverages, fresh produce, toiletries, and more – everything you need in one convenient location.<br>
+      
+      <br>We’re not just another convenience store; we’re a part of your community. Our team is passionate about serving you with a smile and making your visit stress-free. Whether you're in a rush or just looking for something new, FoodCrave is here to meet your needs.
+      
+      <br>Open every day, we aim to be your go-to store for all things convenient, reliable, and fresh. Thank you for choosing FoodCrave, where your satisfaction is our priority, and we look forward to serving you soon!!</p>
+  </div>
+
+  <div id="contact" class="page">
+    <h1>Contact Us</h1>
+    <p>Email: foodcrave@gmail.com</p>
+    <p>Phone: (+63) 9123456789</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Pastry Paradise. All Rights Reserved.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
